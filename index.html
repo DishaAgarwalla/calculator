@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1><i class="fas fa-calculator"></i> Modern Calculator</h1>
+    </div>
+
+    <div class="calculator">
+        <div class="display">
+            <div class="expression" id="expression"></div>
+            <div id="display">0</div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn operator" id="clear">C</button>
+            <button class="btn operator" id="backspace">←</button>
+            <button class="btn operator" id="percentage">%</button>
+            <button class="btn operator" id="divide">/</button>
+
+            <button class="btn number" id="seven">7</button>
+            <button class="btn number" id="eight">8</button>
+            <button class="btn number" id="nine">9</button>
+            <button class="btn operator" id="multiply">×</button>
+
+            <button class="btn number" id="four">4</button>
+            <button class="btn number" id="five">5</button>
+            <button class="btn number" id="six">6</button>
+            <button class="btn operator" id="subtract">-</button>
+
+            <button class="btn number" id="one">1</button>
+            <button class="btn number" id="two">2</button>
+            <button class="btn number" id="three">3</button>
+            <button class="btn operator" id="add">+</button>
+
+            <button class="btn advanced" id="square">x²</button>
+            <button class="btn number" id="zero">0</button>
+            <button class="btn" id="decimal">.</button>
+            <button class="btn equals" id="equals">=</button>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h3><i class="fas fa-lightbulb"></i> Tips</h3>
+        <ul>
+            <li>Use keyboard numbers and operators</li>
+            <li>Press Enter or = to calculate</li>
+            <li>Press ESC to clear</li>
+            <li>Press Backspace to delete last digit</li>
+            <li>Click x² for square, % for percentage</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Modern Calculator © 2023 | Built with HTML, CSS & JavaScript</p>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
